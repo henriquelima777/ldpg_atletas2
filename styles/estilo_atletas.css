@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+:root{
+    --cor-primaria: #42696E;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #FFFFFF;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+
+}
+body {
+    font-family: 'Krona One', sans-serif;
+    background-color: #42696E;
+    color: #ffffff;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho {
+    background-color: #42696E;
+    padding: 10px 0;
+  }
+  
+  .cabecalho nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cabecalho {
+    background-color: #42696E;
+    padding: 10px 0;
+  }
+  
+  .cabecalho nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cabecalho_menu_link,
+  .cabecalho_neymar_link,
+  .cabecalho_rayssa_link,
+  .cabecalho_rebeca_link,
+  .cabecalho_thiagobraz_link {
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cabecalho_menu_link:hover,
+  .cabecalho_neymar_link:hover,
+  .cabecalho_rayssa_link:hover,
+  .cabecalho_rebeca_link:hover,
+  .cabecalho_thiagobraz_link:hover {
+    background-color: #ffffff;
+  }
+
+.apresentacao{
+    width: 1124px;
+    margin: 0px auto 30px auto;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+}
+
+.apresentacao_contexto{
+    width: 602px;
+}
+
+.apresentacao_contexto_texto{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    font-family: var(--fonte-secundaria);
+}
+
+.apresentacao_contexto_titulo{
+    font-size: 36px;
+    color: var(--cor-terciaria);
+    margin-bottom: 40px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao_links{
+    display:grid;
+    grid-template-rows: auto;
+
+    justify-content: center;
+    gap:30px
+}
+
+.apresentacao_links_link{
+    border: 2px solid var(--cor-terciaria);
+    padding: 24px 0px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    width: 378px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.apresentacao_links_subtitulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao_links_link:hover{
+    background-color: var(--cor-hover);
+}
